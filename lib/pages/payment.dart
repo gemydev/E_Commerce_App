@@ -71,7 +71,8 @@ class _PaymentPageState extends State<PaymentPage> {
                                   statusBarHeight +
                                   (screenHeight * 0.2) +
                                   (screenHeight * 0.3)),
-                          child: Center(child: finalInfo(widget.address, context))),
+                          child: Center(
+                              child: finalInfo(widget.address, context))),
                     ),
                     Container(
                       height: screenHeight * 0.2,
