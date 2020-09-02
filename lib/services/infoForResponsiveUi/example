@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+import 'package:flutterresoinsiveui/infoForResponsiveUi/info_widget.dart';
+
+class TestPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.green,
+      body: Center(
+        child: Container(
+          height: MediaQuery.of(context).size.height * 0.8,
+          width: MediaQuery.of(context).size.width * 0.8,
+          color: Colors.blue,
+          child: InfoWidget(
+            returnedWidget: (context , deviceInfo){
+              return Column(
+                children: <Widget>[
+                  Container(
+                    height: deviceInfo.localHeight/3,
+                    color : Colors.red
+                  ),
+                  Container(
+                      height: deviceInfo.localHeight/3,
+                      color : Colors.lightGreen
+                  ),
+                  Container(
+                      height: deviceInfo.localHeight/3,
+                      color : Colors.indigoAccent
+                  ),
+                ],
+              );
+            },
+          )
+        ),
+      ),
+    );
+  }
+}
+
+

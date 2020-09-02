@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "78891968361",
+    "firebase_url": "https://gemy-store.firebaseio.com",
+    "project_id": "gemy-store",
+    "storage_bucket": "gemy-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78891968361:android:b0376473156de0082e3ff8",
+        "android_client_info": {
+          "package_name": "com.example.E_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78891968361-j7cb6od3n24pm3j1mrl5eijgs2vhh19r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw1SwA7394VE2YwLJFa_OLbTXp2Rh_kqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78891968361-j7cb6od3n24pm3j1mrl5eijgs2vhh19r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
